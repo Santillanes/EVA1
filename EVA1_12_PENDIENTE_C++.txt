@@ -1,0 +1,49 @@
+#include <iostream>
+
+
+using namespace std;
+
+
+int main() {
+
+	cout << "Introduce el valor de x1" << endl;
+
+	double x1;
+
+	cin >> x1;
+
+	
+
+	cout << "Introduce el valor de y1" << endl;
+
+	double y1;
+
+	cin >> y1;
+
+	
+
+	cout << "Introduce el valor de x2" << endl;
+
+	double x2;
+
+	cin >> x2;
+
+	
+
+	cout << "Introduce el valor de y2" << endl;
+
+	double y2;
+
+	cin >> y2;
+
+	
+
+	double m;
+
+	m=(y2-y1)/(x2-x1);
+
+	cout << "El valor de la pendiente es: ";
+
+	cout << m;
+
+}

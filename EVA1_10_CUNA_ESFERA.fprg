@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Luis Santillanes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-14 09:07:23 a. m."/>
+        <attribute name="created" value="THVpcyBTYW50aWxsYW5lcztMQVBUT1AtSktORzlNUkw7MjAxOC0wOS0xNDswODo1NDozNSBhLiBtLjs0MTYx"/>
+        <attribute name="edited" value="THVpcyBTYW50aWxsYW5lcztMQVBUT1AtSktORzlNUkw7MjAxOC0wOS0xNDswOTowNzoyMyBhLiBtLjszOzQyNjc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Introduce la medida del radio&quot;" newline="True"/>
+            <declare name="r" type="Real" array="False" size=""/>
+            <input variable="r"/>
+            <output expression="&quot;Introduce la medida del &#225;ngulo&quot;" newline="True"/>
+            <declare name="a" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <declare name="vol" type="Real" array="False" size=""/>
+            <assign variable="vol" expression="(3.1416)*((r)^3)*(a/270)"/>
+            <output expression="&quot;El volumen es: &quot;" newline="False"/>
+            <output expression="vol" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

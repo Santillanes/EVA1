@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Luis Santillanes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-14 09:46:35 a. m."/>
+        <attribute name="created" value="THVpcyBTYW50aWxsYW5lcztMQVBUT1AtSktORzlNUkw7MjAxOC0wOS0xNDswOTowNzoyNSBhLiBtLjs0MTU5"/>
+        <attribute name="edited" value="THVpcyBTYW50aWxsYW5lcztMQVBUT1AtSktORzlNUkw7MjAxOC0wOS0xNDswOTo0NjozNSBhLiBtLjsyOzQyNzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Introduce el valor de x1&quot;" newline="True"/>
+            <declare name="x1" type="Real" array="False" size=""/>
+            <input variable="x1"/>
+            <output expression="&quot;Introduce el valor de y1&quot;" newline="True"/>
+            <declare name="y1" type="Real" array="False" size=""/>
+            <input variable="y1"/>
+            <output expression="&quot;Introduce el valor de x2&quot;" newline="True"/>
+            <declare name="x2" type="Real" array="False" size=""/>
+            <input variable="x2"/>
+            <output expression="&quot;Introduce el valor de y2&quot;" newline="True"/>
+            <declare name="y2" type="Real" array="False" size=""/>
+            <input variable="y2"/>
+            <declare name="m" type="Real" array="False" size=""/>
+            <assign variable="m" expression="(y2-y1)/(x2-x1)"/>
+            <output expression="&quot;La pendiente de los dos puntos es: &quot;" newline="False"/>
+            <output expression="m" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

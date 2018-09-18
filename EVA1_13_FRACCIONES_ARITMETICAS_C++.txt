@@ -1,0 +1,66 @@
+#include <iostream>
+
+
+
+using namespace std;
+
+
+
+int main() {
+
+
+	cout << "Introduce el numerador de la primer fracción: " << endl;
+
+	double n1;
+
+	cin >> n1;
+
+	
+
+	cout << "Introduce el denominador de la primer fracción: " << endl;
+
+	double d1;
+
+	cin >> d1;
+
+	
+
+	cout << "Introduce el numerador de la segunda fracción: " << endl;
+
+	double n2;
+
+	cin >> n2;
+
+	
+
+	cout << "Introduce el denominador de la segunda fracción: " << endl;
+
+	double d2;
+
+	cin >> d2;
+	
+
+	double multiNum = n1*n2;
+	double multiDen = d1*d2;
+	cout << "La multiplicación de ambas fracciones es: " << multiNum << "/" << multiDen << endl;
+
+
+
+        double divNum = n1*d2;
+	double divDen = d1*n2;
+
+	cout << "La división de ambas fracciones es: " << divNum << "/" << divDen << endl;
+
+
+
+    	double sumNum = ((n1*d2)+(d1*n2));
+
+	cout << "La suma de ambas fracciones es: " << sumNum << "/" << multiDen << endl;
+
+
+        double resNum = ((n1*d2)-(d1*n2));
+	cout << "La resta de ambas fracciones es: " << resNum << "/" << multiDen << endl;
+
+
+}
+		

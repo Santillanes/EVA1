@@ -1,0 +1,39 @@
+#include <iostream>
+
+
+using namespace std;
+
+
+
+int main() {
+
+
+
+cout << "Ingresa tu nombre" << endl;
+
+string sNombre;
+
+cin >> sNombre;
+
+
+cout << "Ingresa tu edad" << endl;
+
+int iEdad;
+
+cin >> iEdad;
+
+
+int iAnnio;
+
+iAnnio = 2018 - iEdad;
+
+
+cout << sNombre;
+
+cout << ", naciste en el año: ";
+
+cout << iAnnio << endl;
+
+
+
+}

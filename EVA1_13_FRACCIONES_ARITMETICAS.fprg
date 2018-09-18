@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Luis Santillanes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-18 03:58:05 p. m."/>
+        <attribute name="created" value="THVpcyBTYW50aWxsYW5lcztMQVBUT1AtSktORzlNUkw7MjAxOC0wOS0xNzswMzo0MjoxOCBwLiBtLjs0MTcy"/>
+        <attribute name="edited" value="THVpcyBTYW50aWxsYW5lcztMQVBUT1AtSktORzlNUkw7MjAxOC0wOS0xODswMzo1ODowNSBwLiBtLjsyOzQyODU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Introduzca el numerador de la primera fracci&#243;n: &quot;" newline="True"/>
+            <declare name="n1" type="Real" array="False" size=""/>
+            <input variable="n1"/>
+            <output expression="&quot;Introduzca el denominador de la primera fracci&#243;n: &quot;" newline="True"/>
+            <declare name="d1" type="Real" array="False" size=""/>
+            <input variable="d1"/>
+            <output expression="&quot;Introduzca el numerador de la segunda fracci&#243;n: &quot;" newline="True"/>
+            <declare name="n2" type="Real" array="False" size=""/>
+            <input variable="n2"/>
+            <output expression="&quot;Introduzca el denominador de la segunda fracci&#243;n: &quot;" newline="True"/>
+            <declare name="d2" type="Real" array="False" size=""/>
+            <input variable="d2"/>
+            <declare name="multiNum" type="Real" array="False" size=""/>
+            <assign variable="multiNum" expression="n1*n2"/>
+            <declare name="multiDen" type="Real" array="False" size=""/>
+            <assign variable="multiDen" expression="d1*d2"/>
+            <output expression="&quot;La multiplicaci&#243;n de ambas fracciones es: &quot;&amp;multiNum&amp;&quot;/&quot;&amp;multiDen" newline="True"/>
+            <declare name="divNum" type="Real" array="False" size=""/>
+            <assign variable="divNum" expression="n1*d2"/>
+            <declare name="divDen" type="Real" array="False" size=""/>
+            <assign variable="divDen" expression="d1*n2"/>
+            <output expression="&quot;La divisi&#243;n de ambas fracciones es: &quot;&amp;divNum&amp;&quot;/&quot;&amp;divDen" newline="True"/>
+            <declare name="sumNum" type="Real" array="False" size=""/>
+            <assign variable="sumNum" expression="(n1*d2)+(d1*n2)"/>
+            <output expression="&quot;La suma de ambas fracciones es: &quot;&amp;sumNum&amp;&quot;/&quot;&amp;multiDen" newline="True"/>
+            <declare name="resNum" type="Real" array="False" size=""/>
+            <assign variable="resNum" expression="(n1*d2)-(d1*n2)"/>
+            <output expression="&quot;La resta de ambas fracciones es: &quot;&amp;resNum&amp;&quot;/&quot;&amp;multiDen" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

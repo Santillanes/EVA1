@@ -1,0 +1,40 @@
+print ("Introduce el numerador de la primer fraccion: ")
+
+n1 = int(input())
+
+print ("Introduce el denominador de la primer fraccion: ")
+
+d1 = int(input())
+
+print ("Introduce el numerador de la segunda fraccion: ")
+
+n2 = int(input())
+
+print ("Introduce el denominador de la segunda fraccion: ")
+
+d2 = int(input())
+
+
+
+multiNum = n1*n2
+multiDen = d1*d2
+
+
+print ("La multiplicacion de ambas fracciones es: " + multiNum + "/" + multiDen)
+
+
+divNum = n1*d2
+
+divDen = d1*n2
+print ("La division de ambas fracciones es: " + divNum + "/" + divDen)
+
+
+sumNum = ((n1*d2)+(d1*n2))
+
+print ("La suma de ambas fracciones es: " + sumNum + "/" + multiDen)
+
+
+resNum = ((n1*d2)-(d1*n2))
+
+print ("La resta da ambas fracciones es: " + resNum + "/" + multiDen)
+

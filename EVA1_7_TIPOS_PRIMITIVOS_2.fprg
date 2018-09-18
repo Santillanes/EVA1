@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-11 09:47:28 a. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCQTEzMjA0NTsyMDE4LTA5LTExOzA5OjA5OjM1IGEuIG0uOzI5MDI="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMjA0NTsyMDE4LTA5LTExOzA5OjQ3OjI4IGEuIG0uOzM7MzAxNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Ingresa tu nombre:&quot;" newline="True"/>
+            <declare name="sNombre" type="String" array="False" size=""/>
+            <input variable="sNombre"/>
+            <output expression="&quot;Ingresa tu edad:&quot;" newline="True"/>
+            <declare name="iEdad" type="Integer" array="False" size=""/>
+            <input variable="iEdad"/>
+            <declare name="iAnnio" type="Integer" array="False" size=""/>
+            <assign variable="iAnnio" expression="2018-iEdad"/>
+            <output expression="sNombre" newline="False"/>
+            <output expression="&quot;, naciste en el a&#241;o: &quot;" newline="False"/>
+            <output expression="iAnnio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

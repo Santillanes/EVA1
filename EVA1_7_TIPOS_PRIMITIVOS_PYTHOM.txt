@@ -1,0 +1,15 @@
+print ("Ingresa tu nombre")
+
+sNombre=input()
+
+print ("Ingresa tu edad")
+
+iEdad=int(input())
+
+iAnnio = 2018 - iEdad
+
+print (sNombre)
+
+print ("tu naciste en el anio")
+
+print (iAnnio)
