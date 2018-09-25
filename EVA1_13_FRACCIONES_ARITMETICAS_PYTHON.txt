@@ -20,21 +20,33 @@ multiNum = n1*n2
 multiDen = d1*d2
 
 
-print ("La multiplicacion de ambas fracciones es: " + multiNum + "/" + multiDen)
+print ("La multiplicacion de ambas fracciones es: ", end='', flush=True)
+print (multiNum, end='', flush=True)
+print ("/", end='', flush=True)
+print (multiDen)
 
 
 divNum = n1*d2
 
 divDen = d1*n2
-print ("La division de ambas fracciones es: " + divNum + "/" + divDen)
+print ("La division de ambas fracciones es: ", end='', flush=True)
+print (divNum, end='', flush=True)
+print ("/", end='', flush=True)
+print (divDen)
 
 
 sumNum = ((n1*d2)+(d1*n2))
 
-print ("La suma de ambas fracciones es: " + sumNum + "/" + multiDen)
+print ("La suma de ambas fracciones es: ", end='', flush=True)
+print (sumNum, end='', flush=True)
+print ("/", end='', flush=True)
+print (multiDen)
 
 
 resNum = ((n1*d2)-(d1*n2))
 
-print ("La resta da ambas fracciones es: " + resNum + "/" + multiDen)
+print ("La resta da ambas fracciones es: ", end='', flush=True)
+print (resNum, end='', flush=True)
+print ("/", end='', flush=True)
+print (multiDen)
 

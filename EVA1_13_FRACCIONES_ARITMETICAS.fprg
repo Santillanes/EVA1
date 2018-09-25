@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Luis Santillanes"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2018-09-18 03:58:05 p. m."/>
+        <attribute name="saved" value="2018-09-24 06:54:40 p. m."/>
         <attribute name="created" value="THVpcyBTYW50aWxsYW5lcztMQVBUT1AtSktORzlNUkw7MjAxOC0wOS0xNzswMzo0MjoxOCBwLiBtLjs0MTcy"/>
-        <attribute name="edited" value="THVpcyBTYW50aWxsYW5lcztMQVBUT1AtSktORzlNUkw7MjAxOC0wOS0xODswMzo1ODowNSBwLiBtLjsyOzQyODU="/>
+        <attribute name="edited" value="THVpcyBTYW50aWxsYW5lcztMQVBUT1AtSktORzlNUkw7MjAxOC0wOS0yNDswNjo1NDo0MCBwLiBtLjszOzQyODE="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -38,7 +38,10 @@
             <output expression="&quot;La suma de ambas fracciones es: &quot;&amp;sumNum&amp;&quot;/&quot;&amp;multiDen" newline="True"/>
             <declare name="resNum" type="Real" array="False" size=""/>
             <assign variable="resNum" expression="(n1*d2)-(d1*n2)"/>
-            <output expression="&quot;La resta de ambas fracciones es: &quot;&amp;resNum&amp;&quot;/&quot;&amp;multiDen" newline="True"/>
+            <output expression="&quot;La resta de ambas fracciones es: &quot;" newline="False"/>
+            <output expression="resNum" newline="False"/>
+            <output expression="&quot;/&quot;" newline="False"/>
+            <output expression="multiDen" newline="True"/>
         </body>
     </function>
 </flowgorithm>

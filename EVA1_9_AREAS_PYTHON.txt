@@ -12,4 +12,5 @@ h = float(input())
 
 area = ((BaMa+BaMe)/2)*h
 
-print ("El area del trapecio es: " + area)
+print ("El area del trapecio es: ")
+print (area)

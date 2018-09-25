@@ -13,4 +13,5 @@ t = float(input())
 
 Dist = ((VelIn+VelFin)/2)*t
 
-print ("La distancia es: " + Dist)
+print ("La distancia es: ")
+print (Dist)
