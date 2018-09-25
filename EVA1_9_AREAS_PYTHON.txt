@@ -1,0 +1,15 @@
+print ("Ingrese la medida de la base mayor: ")
+
+BaMa = float(input())
+
+print ("Ingrese la medida de la base menor: ")
+
+BaMe = float(input())
+
+print ("Ingrese la altura: ")
+
+h = float(input())
+
+area = ((BaMa+BaMe)/2)*h
+
+print ("El area del trapecio es: " + area)

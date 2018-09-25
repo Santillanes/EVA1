@@ -1,0 +1,16 @@
+print ("Introduce la velocidad inicial: ")
+
+VelIn = float(input())
+
+print ("Introduce la velocidad final: ")
+
+VelFin = float(input())
+
+print ("Introduce el tiempo empleado: ")
+
+t = float(input())
+
+
+Dist = ((VelIn+VelFin)/2)*t
+
+print ("La distancia es: " + Dist)

@@ -1,0 +1,35 @@
+#include <iostream>
+
+#include <cmath>
+
+
+
+using namespace std;
+
+
+
+int main() {
+
+	cout << "Introduce la medida del radio: " << endl;
+
+	double r;
+
+	cin >> r;
+
+	cout << "Introduce la medida del angulo: " << endl;
+
+	double a;
+
+	cin >> a;
+
+	
+
+	double vol;
+
+	vol = 3.1416 * pow(r,3) * (a/270);
+
+	cout << "El volumen es: " << vol << endl;
+
+	
+
+}

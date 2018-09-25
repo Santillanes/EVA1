@@ -1,0 +1,11 @@
+print ("Introduce la medida del radio: ")
+
+r = float(input())
+
+print ("Introduce la medida del angulo: ")
+
+a = float(input())
+
+vol = 3.1416 * (r**3) * (a/270)
+
+print ("El volumen es: " + vol)

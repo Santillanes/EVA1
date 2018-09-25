@@ -1,0 +1,39 @@
+#include <iostream>
+
+
+
+using namespace std;
+
+
+
+int main() {
+
+	cout << "Ingrese la medida de la base mayor: " << endl;
+
+	double BaMa;
+
+	cin >> BaMa;
+
+	cout << "Ingrese la medida de la base menor: " << endl;
+
+	double BaMe;
+
+	cin >> BaMe;
+
+	cout << "Ingrese la medida de la altura: " << endl;
+
+	double h;
+
+	cin >> h;
+
+	
+
+	double area;
+
+	area = ((BaMa+BaMe)/2)*h;
+
+	cout << "El area del trapecio es: " << area << endl;
+
+	
+
+}
